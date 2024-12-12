@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+.env.*
+
+# Scrapyd deployment
+.eggs/
+*.egg-info/
+*.egg
+
+# Logs
+scrapy.log
+*.log
+
+# SQLite databases
+*.db
+*.sqlite3
+
+# Outputs
+output/
+results/
+export/
+*.csv
+*.json
+*.jl
+*.xml
+*.pickle
+
+# Docker-specific files
+*.pid
+docker-compose.override.yml
+.dockerignore
+/tmp/
+
+# VS Code settings
+.vscode/
+.history/
+
+# PyCharm settings
+.idea/
+*.iml
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
